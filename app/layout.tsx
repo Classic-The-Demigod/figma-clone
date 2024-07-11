@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import { Room } from "./Room";
@@ -24,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${workSans.className} bg-primary-grey-200`}>
         <Room>
-          <h1 className="text-red-600 font-xl">Home Button</h1>
+          
 
 
         {children}
